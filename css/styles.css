@@ -1,0 +1,133 @@
+.foto{
+    height: 450px;
+    width: auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 300px;
+}
+.foto2{
+    height: 100px;
+    width: auto;
+    gap: 10px;
+    padding: 20px;
+}
+
+.alinhar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    padding: 20px;
+  }
+    
+
+
+    /*rodapé */
+  footer {
+    background-color: #81c43c; 
+    color: black; 
+    text-align: center; 
+    padding: 10px; 
+    position: fixed; 
+    width: 100%; 
+    bottom: 0;
+    /*rodapé */
+  }
+
+  /*Menu */
+  .menu {
+    position: fixed; /* Fixa o menu no topo da página */
+    top: 0;
+    width: 100%;
+    background-color: #81c43c; /* Cor de fundo do menu */
+  }
+  
+  ul {
+    list-style-type: none; /* Remove os marcadores de lista */
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display: inline-block; /* Alinha os itens do menu horizontalmente */
+  }
+  
+  a {
+    color: white; /* Cor do texto dos links */
+    padding: 15px 20px; /* Espaçamento interno dos links */
+    text-decoration: none; /* Remove a sublinhado dos links */
+  }
+  
+  a:hover {
+    background-color: #81c43c; /* Cor de fundo ao passar o mouse sobre os links */
+  }
+  
+  .content {
+    padding: 60px 20px 20px; /* Espaçamento interno do conteúdo da página para evitar sobreposição com o menu */
+  }
+  /*Menu */
+
+
+
+
+  /*Formulário */
+  .container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .container input, .container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .container button {
+    padding: 10px 20px;
+    background-color: #81c43c;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .container button:hover {
+    background-color: #81c43c;
+  }
+    
+  .maps{
+    display: flex;
+    margin-left: 350px;
+  }
+  /*Formulário */
+
+  .insta{
+    width: auto;
+    height: 25px;
+  }
+
+  .hr{
+    margin-left: 550px;
+  }
